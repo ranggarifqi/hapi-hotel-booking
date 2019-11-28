@@ -58,7 +58,7 @@ module.exports = new Confidence.Store({
           $base: {
             migrateOnStart: true,
             knex: {
-              client: "pg",
+              client: "mysql",
               connection: {
                 host: process.env.DB_HOST,
                 user: process.env.DB_USER,
