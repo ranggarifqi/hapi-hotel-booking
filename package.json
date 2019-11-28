@@ -10,6 +10,7 @@
   "dependencies": {
     "@hapi/boom": "8.x.x",
     "@hapi/joi": "15.x.x",
+    "@hapi/joi-date": "^1.x.x",
     "bcryptjs": "^2.4.3",
     "hapi-auth-jwt2": "^8.8.0",
     "haute-couture": "3.x.x",

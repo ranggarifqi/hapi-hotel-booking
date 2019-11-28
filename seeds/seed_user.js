@@ -14,7 +14,21 @@ exports.seed = function(knex) {
           password: bcrypt.hashSync("admin123", salt),
           fullName: "Administrator",
           roleId: 1
-        }
+        },
+        {
+          id: 2,
+          roleId: 3,
+          email: "asep@ranggarifqi.com",
+          password: bcrypt.hashSync("asep123", salt),
+          fullName: "Asep"
+        },
+        {
+          id: 3,
+          roleId: 3,
+          email: "deden@ranggarifqi.com",
+          password: bcrypt.hashSync("deden123", salt),
+          fullName: "Deden"
+        },
       ]);
     });
 };
