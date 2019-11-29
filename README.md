@@ -63,4 +63,4 @@ Server started at http://localhost:3000
 10. API to Update Booking only allowed before check in date :white_check_mark:
 11. Access Control List
 12. Swagger Documentation :white_check_mark:
-13. Authentication Feature for Swagger
+13. Authentication Feature for Swagger :white_check_mark:
