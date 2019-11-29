@@ -78,6 +78,12 @@ module.exports = new Confidence.Store({
           $default: "hpal-debug",
           production: Toys.noop
         }
+      },
+      {
+        plugin: "hapi-authorization",
+        options: {
+          roles: ["Administrator", "Chef", "Customer"] // Can also reference a function which returns an array of roles
+        }
       }
     ]
   }
