@@ -60,7 +60,7 @@ Server started at http://localhost:3000
 7. JWT Authentication :white_check_mark:
 8. Support Record of Change for the rooms (Audit trail)
 9. Queue integrated system
-10. API to Update Booking only allowed before check in date
+10. API to Update Booking only allowed before check in date :white_check_mark:
 11. Access Control List
 12. Swagger Documentation :white_check_mark:
 13. Authentication Feature for Swagger
